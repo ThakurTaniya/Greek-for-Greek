@@ -95,3 +95,17 @@ using namespace std;
 
 // .... Q6. Closest Number
 //      Closest multiple
+
+// int main() {
+//     int n = 13, m = 4;
+
+//     int lower = (n / m) * m;        // smaller multiple
+//     int upper = (n / m + 1) * m;    // bigger multiple
+
+//     if (n - lower < upper - n)
+//         cout << lower;
+//     else
+//         cout << upper;
+
+//     return 0;
+// }
