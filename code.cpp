@@ -109,3 +109,30 @@ using namespace std;
 
 //     return 0;
 // }
+
+
+// .... Q7. dice problem
+
+// #include <iostream>
+// using namespace std;
+
+// int oppositeFaceOfDice(int n) {
+//     // check valid dice number
+//     if (n < 1 || n > 6) {
+//         return -1; // invalid
+//     }
+//     return 7 - n;
+// }
+
+// int main() {
+//     int n = 2;
+
+//     int result = oppositeFaceOfDice(n);
+
+//     if (result == -1)
+//         cout << "Invalid dice number";
+//     else
+//         cout << "Opposite face: " << result;
+
+//     return 0;
+// }
